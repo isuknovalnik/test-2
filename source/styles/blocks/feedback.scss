@@ -1,0 +1,35 @@
+.feedback {
+  padding: 40px 0 50px;
+  background-color: $feedback-back;
+
+  @media (min-width: $mob) {
+    padding: 74px 0 80px;
+  }
+
+  @media (min-width: $tablet) {
+    padding: 104px 0 120px;
+  }
+
+  &__wrap {
+    width: calc(100% - 20px);
+    max-width: 762px;
+    margin: 0 auto;
+
+    @media (min-width: $mob) {
+      width: calc(100% - 40px);
+    }
+  }
+
+  &__form {
+    max-width: 670px;
+    margin-top: 60px;
+  }
+
+  &__button {
+    margin-left: 30px;
+
+    @media (min-width: $mob) {
+      margin-left: 92px;
+    }
+  }
+}

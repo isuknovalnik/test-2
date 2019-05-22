@@ -1,0 +1,37 @@
+.advantages {
+  padding: 40px 0 26px;
+
+  @media (min-width: $mob) {
+    padding: 80px 0 120px;
+  }
+
+  @media (min-width: $tablet) {
+    padding: 120px 0 160px;
+  }
+
+  &__wrap {
+    width: calc(100% - 20px);
+    max-width: 486px;
+    margin: 0 auto;
+
+    @media (min-width: $mob) {
+      width: calc(100% - 40px);
+      max-width: 1170px;
+    }
+  }
+
+  &__int-wrap {
+    margin-top: 24px;
+    width: 100%;
+
+    @media (min-width: $mob) {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 48px;
+    }
+
+    @media (min-width: $tablet) {
+      margin-top: 60px;
+    }
+  }
+}

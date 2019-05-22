@@ -1,0 +1,85 @@
+.text-input {
+
+  &__label {
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 4px;
+    font-family: $dinpro;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: $light-text;
+
+    @media (min-width: $mob) {
+      margin-bottom: 10px;
+      line-height: 25px;
+    }
+  }
+
+  &.error-input .text-input__label {
+    color: $error-color;
+  }
+
+  &__input {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    font-family: $roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    color: $light-text;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #2c2d2d;
+
+    @media (min-width: $mob) {
+      padding: 12px 0;
+      font-size: 20px;
+    }
+
+    @media (min-width: $tablet) {
+      font-size: 24px;
+      line-height: 35px;
+    }
+
+    &:focus {
+      outline: none;
+      border-bottom-color: $meandr-orange;
+    }
+  
+    &::-ms-clear {
+      display: none;
+    }
+  
+    &::placeholder {
+      color: #5c5c5c;
+    }
+    
+    &--textarea {
+      min-height: 106px;
+      padding-bottom: 15px;
+      resize: none;
+
+      @media (min-width: $mob) {
+        min-height: unset;
+      }
+    }
+  }
+
+  &.error-input .text-input__input {
+    border-bottom-color: $error-color;
+  }
+
+  &__error-text {
+    display: none;
+  }
+
+  &.error-input &__error-text {
+    display: inline-block;
+    padding: 0 4px;
+  }
+}

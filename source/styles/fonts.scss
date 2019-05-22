@@ -1,0 +1,59 @@
+$dinpro: 'DIN Pro', 'Arial', sans-serif;
+$roboto: 'Roboto', 'Arial', sans-serif;
+$gilroy: 'Gilroy', 'Arial', sans-serif;
+
+@font-face {
+  font-family: 'DIN Pro';
+  src: local('DIN Pro'), local('DINPro'),
+    url('../fonts/DINPro.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DIN Pro';
+  src: local('DIN Pro Bold'), local('DINPro-Bold'),
+    url('../fonts/DINPro-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'),
+    url('../fonts/roboto.woff2') format('woff2'),
+    url('../fonts/roboto.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto Medium'),
+    url('../fonts/robotomedium.woff2') format('woff2'),
+    url('../fonts/robotomedium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto Bold'),
+    url('../fonts/robotobold.woff2') format('woff2'),
+    url('../fonts/robotobold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy ExtraBold'), local('Gilroy-ExtraBold'),
+    url('../fonts/Gilroy-ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}

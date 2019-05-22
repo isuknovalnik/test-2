@@ -1,0 +1,25 @@
+.index {
+
+  &__banner {
+    display: block;
+    max-width: 1920px;
+    height: 300px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: calc(100% + 50px) top;
+    background-image: url('../img/banner-img.jpg');
+  
+    @media (min-width: 400px) {
+      background-position: right top;
+    }
+
+    @media (min-width: $mob) {
+      height: 480px;
+    }
+
+    @media (min-width: $tablet) {
+      height: 600px;
+    }
+  }
+}

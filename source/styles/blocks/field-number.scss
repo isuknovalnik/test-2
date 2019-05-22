@@ -1,0 +1,24 @@
+.field-number {
+  flex-shrink: 0;
+  display: block;
+  width: 30px;
+  height: 20px;
+  font-family: $roboto;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: $meandr-orange;
+
+  @media (min-width: $mob) {
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    border: 1px solid #4c4c4c;
+    border-radius: 50%;
+  }
+
+  @media (min-width: $tablet) {
+  }
+
+}

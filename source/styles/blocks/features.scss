@@ -1,0 +1,25 @@
+.features {
+
+  &__wrap {
+    position: relative;
+    top: -30px;
+    width: calc(100% - 20px);
+    max-width: 486px;
+    margin: 0 auto;
+    background-color: $light-back;
+    border: 1px solid #e0e0e0;
+
+    @media (min-width: $mob) {
+      display: flex;
+      flex-wrap: wrap;
+      top: -40px;
+      width: calc(100% - 40px);
+      max-width: 972px;
+      margin: -20px auto 0;
+    }
+
+    @media (min-width: $tablet) {
+      top: -80px;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+@import 'normalize';
+@import 'variables';
+@import 'mixins';
+@import 'fonts';
+@import 'global';
+
+@import 'blocks/section-title.scss';
+@import 'blocks/link.scss';
+@import 'blocks/button.scss';
+@import 'blocks/header.scss';
+@import 'blocks/index.scss';
+@import 'blocks/features.scss';
+@import 'blocks/feature.scss';
+@import 'blocks/intro.scss';
+@import 'blocks/advantages.scss';
+@import 'blocks/advantage.scss';
+@import 'blocks/feedback.scss';
+@import 'blocks/field-number.scss';
+@import 'blocks/feedback-field.scss';
+@import 'blocks/text-input.scss';

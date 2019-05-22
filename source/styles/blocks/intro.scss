@@ -1,0 +1,37 @@
+.intro {
+  padding: 30px 0 10px;
+  background-color: $light-back;
+
+  @media (min-width: $mob) {
+    padding: 50px 0;
+  }
+
+  @media (min-width: $tablet) {
+    padding: 80px 0;
+  }
+
+  &__wrap {
+    width: calc(100% - 20px);
+    max-width: 780px;
+    margin: 0 auto;
+
+    @media (min-width: $mob) {
+      width: calc(100% - 40px);
+    }
+  }
+
+  &__text {
+    margin-top: 23px;
+
+    & p {
+      margin: 0;
+      padding: 0;
+      margin-bottom: 26px;
+      font-family: $roboto;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 27px;
+      color: $plain-text;
+    }
+  }
+}

@@ -1,0 +1,64 @@
+.advantage {
+  margin-bottom: 24px;
+  padding-top: 42px;
+  background-repeat: no-repeat;
+  background-size: 26px 26px;
+  background-position: left top;
+  background-image: url('../img/feature.svg');
+
+  @media (min-width: $mob) {
+    max-width: 370px;
+    margin-bottom: 0;
+    padding-top: 84px;
+    padding-right: 30px;
+    background-size: 52px 52px;
+  }
+
+  &__title {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 14px;
+    font-family: $dinpro;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    color: $dark-title;
+
+    @media (min-width: $mob) {
+      padding-bottom: 26px;
+    }
+
+    &:after {
+      position: absolute;
+      display: block;
+      content: '';
+      bottom: 0;
+      left: 0;
+      width: 24px;
+      height: 2px;
+      background-color: $meandr-orange;
+    }
+  }
+
+  &__text {
+    margin: 0;
+    padding: 0;
+    margin-top: 14px;
+    font-family: $roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: $plain-text;
+
+    @media (min-width: $mob) {
+      margin-top: 24px;
+    }
+  }
+
+  &:first-child &__text {
+    @media (min-width: 1140px) {
+      padding-right: 36px;
+    }
+  }
+}

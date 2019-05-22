@@ -1,0 +1,35 @@
+{
+  "name": "meandr-test",
+  "version": "1.0.0",
+  "author": "Inna Suknovalnik",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "build": "gulp build",
+    "debug": "gulp debug",
+    "start": "npm run debug && gulp serve"
+  },
+  "engines": {
+    "node": ">=5.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "browser-sync": "^2.18.6",
+    "del": "^2.2.2",
+    "eslint": "^4.11.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^2.0.0",
+    "gulp-html-import": "0.0.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-inject": "^4.2.0",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.4.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-svgmin": "^1.2.3",
+    "gulp-svgstore": "^6.1.0",
+    "gulp-watch": "^5.0.0",
+    "run-sequence": "^1.2.2"
+  }
+}

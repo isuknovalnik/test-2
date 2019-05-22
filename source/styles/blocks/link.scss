@@ -1,0 +1,13 @@
+.link {
+  font-weight: 700;
+  text-decoration: none;
+  color: $meandr-orange;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:active {
+    opacity: 0.7;
+  }
+}
